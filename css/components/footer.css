@@ -1,0 +1,41 @@
+.footer {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #2f303a;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  display: flex;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #1EDD88;
+}
+
+.social-link:hover .fa-brands,
+.social-link:focus .fa-brands {
+  color: white;
+}
+
+.fa-brands {
+  font-size: 28px;
+  color: #1EDD88;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: rgba(255,255,255,0.6);
+}
+
+.footer-icon {
+  color: red;
+  font-size: 20px;
+}
